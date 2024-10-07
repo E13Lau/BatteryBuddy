@@ -13,7 +13,7 @@ struct BatteryNotifyUseCases {
         // 检查充电状态变化
         if old.isCharging != new.isCharging {
             let status = new.isCharging ? "开始充电" : "停止充电"
-            return BatteryNotify(shouldNotify: true, message: "电池状态变化：\(status)")
+            return BatteryNotify(shouldNotify: false, message: "电池状态变化：\(status)")
         }
 
         // 检查电量是否达到或低于阈值

@@ -12,7 +12,7 @@ struct ExtralContentView: View {
     @AppStorage("lowerBound") private var lowerBound: Double = 20.0
     /// 监听最大值
     @AppStorage("upperBound") private var upperBound: Double = 80.0
-    /// APP启动后自动 start
+    /// APP启动后自动开始监控
     @AppStorage("autoLaunch") private var autoLaunch: Bool = false
 
     @Environment(\.openURL) private var openURL
@@ -45,7 +45,7 @@ struct ExtralContentView: View {
             .fixedSize(horizontal: false, vertical: true)
             
             Toggle(isOn: $autoLaunch) {
-                Text("APP启动后自动 start")
+                Text("APP启动后自动开始监控")
             }
 
             HStack {
