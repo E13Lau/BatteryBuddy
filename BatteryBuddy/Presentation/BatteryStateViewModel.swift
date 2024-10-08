@@ -90,7 +90,7 @@ extension BatteryStateViewModel {
 
     private func startMonitoring() {
         guard isMonitoring == false else { return }
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { [weak self] _ in
+        timer = Timer.scheduledTimer(withTimeInterval: 10, repeats: true) { [weak self] _ in
             DispatchQueue.main.async {
                 self?.updateBatteryInfo()
             }
