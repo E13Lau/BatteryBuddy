@@ -1,0 +1,118 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "APP启动后自动开始监控" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The app automatically starts monitoring after launch."
+          }
+        }
+      }
+    },
+    "停止" : {
+      "comment" : "Button text",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stop"
+          }
+        }
+      }
+    },
+    "充电状态: %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Charging status: %@"
+          }
+        }
+      }
+    },
+    "发送测试通知" : {
+
+    },
+    "启动" : {
+      "localizations" : {
+        "en" : {
+          "variations" : {
+            "device" : {
+              "ipad" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Run"
+                }
+              },
+              "iphone" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Run"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Run"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "启动后： \n 1. 充电时，当电池电量达到%lld%%发出提醒 \n 2. 耗电时，当电池电量低到%lld%%发出提醒" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "After launch:\n1. During charging, a reminder will be issued when the battery level reaches %1$lld%%.\n2. During discharging, a reminder will be issued when the battery level drops to %2$lld%%."
+          }
+        }
+      }
+    },
+    "电池电量: %.1f%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Battery level: %.1f%%"
+          }
+        }
+      }
+    },
+    "范围: %lld%% - %lld%% 当前电量%lld%%" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Range: %1$lld%% - %2$lld%% Current battery level %3$lld%%"
+          }
+        }
+      }
+    },
+    "运行中..." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Running..."
+          }
+        }
+      }
+    },
+    "退出" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Exit"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,6 +1,6 @@
-# BatteryBuddy
+# Battery Agent
 
-BatteryBuddy 是一个 macOS 应用程序，用于监控和管理您的 Mac 电池状态。它可以帮助您优化电池使用，延长电池寿命，并在关键时刻提醒您。
+Battery Agent 是一个 macOS 应用程序，用于监控和管理您的 Mac 电池状态。它可以帮助您优化电池使用，延长电池寿命，并在关键时刻提醒您。
 
 ![image1](image1.png)
 
@@ -15,20 +15,20 @@ BatteryBuddy 是一个 macOS 应用程序，用于监控和管理您的 Mac 电�
 
 ## 安装
 
-1. 从 [Releases](https://github.com/E13Lau/BatteryBuddy/releases) 页面下载最新版本的 BatteryBuddy.dmg 文件。
-2. 打开 DMG 文件并将 BatteryBuddy 应用程序拖到 Applications 文件夹中。
+1. 从 [Releases](https://github.com/E13Lau/BatteryBuddy/releases) 页面下载最新版本的 Battery Agent.dmg 文件。
+2. 打开 DMG 文件并将 Battery Agent 应用程序拖到 Applications 文件夹中。
 3. 首次运行时，您可能需要在系统偏好设置中允许来自身份不明开发者的应用。
 
 ## 使用方法
 
-1. 启动 BatteryBuddy 应用程序。
-2. 点击菜单栏中的 BatteryBuddy 图标来访问主界面。
+1. 启动 Battery Agent 应用程序。
+2. 点击菜单栏中的 Battery Agent 图标来访问主界面。
 3. 使用滑块设置您希望接收通知的电池电量范围。
-4. 选择是否在登录时自动启动 BatteryBuddy。
+4. 选择是否在登录时自动启动 Battery Agent
 
 ## 开发
 
-BatteryBuddy 使用 SwiftUI 开发，采用了清晰的架构设计。
+Battery Agent 使用 SwiftUI 开发，采用了清晰的架构设计。
 
 ### 项目结构
 
@@ -60,4 +60,4 @@ BatteryBuddy 使用 SwiftUI 开发，采用了清晰的架构设计。
 
 ---
 
-希望 BatteryBuddy 能够帮助您更好地管理 Mac 电池！
+希望 Battery Agent 能够帮助您更好地管理 Mac 电池！

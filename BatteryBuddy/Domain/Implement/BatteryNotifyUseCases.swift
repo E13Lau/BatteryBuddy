@@ -32,6 +32,6 @@ struct BatteryNotifyUseCases {
     }
     
     func sendNotify(notify: BatteryNotify) {
-        notificationUseCases.sendNotification(title: "BatteryBuddy", body: notify.message ?? "")
+        notificationUseCases.sendNotification(title: "BatterMax", body: notify.message ?? "")
     }
 }

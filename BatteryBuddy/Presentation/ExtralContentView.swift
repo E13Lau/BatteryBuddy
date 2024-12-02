@@ -28,7 +28,7 @@ struct ExtralContentView: View {
     var body: some View {
         VStack(alignment: .leading) {
             Text(
-                "范围: \(Int(lowerBound)) - \(Int(upperBound)) 当前电量\(Int(vm.batteryInfo.batteryLevel))"
+                "范围: \(Int(lowerBound))% - \(Int(upperBound))% 当前电量\(Int(vm.batteryInfo.batteryLevel))%"
             )
 
             RangeSliderView(
